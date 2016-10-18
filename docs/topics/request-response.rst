@@ -299,6 +299,7 @@ Those are:
 * :reqmeta:`dont_obey_robotstxt`
 * :reqmeta:`download_timeout`
 * :reqmeta:`download_maxsize`
+* :reqmeta:`download_latency`
 * :reqmeta:`proxy`
 
 .. reqmeta:: bindaddress
@@ -316,6 +317,13 @@ download_timeout
 The amount of time (in secs) that the downloader will wait before timing out.
 See also: :setting:`DOWNLOAD_TIMEOUT`.
 
+.. reqmeta:: download_latency
+
+download_latency
+----------------
+
+The amount of time spent to fetch the response, since the request has been
+started.
 
 .. _topics-request-response-ref-request-subclasses:
 
