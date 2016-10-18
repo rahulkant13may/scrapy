@@ -323,7 +323,9 @@ download_latency
 ----------------
 
 The amount of time spent to fetch the response, since the request has been
-started.
+started. This meta key becomes available when the response has been
+downloaded. While other meta keys are used to control Scrapy behavior, this
+one is supposed to be read-only.
 
 .. _topics-request-response-ref-request-subclasses:
 
